@@ -7,7 +7,7 @@ O método de ajuste por Monte Carlo realiza ***Nº de ensaios*** ensaios em um i
 
 O método de ajuste por Algoritmo Genético também realiza ***Nº de ensaios*** ensaios em um intervalo definido por [***Estimativa de Kef - Raio, Estimativa de Kef + Raio***]., no entanto, a quantidade de ensaios a serem realizados depende da entrada ***Limite***. O método busca fazer ensaios de maneira indefinida, mas se a ele fizer uma quantidade de ensaios maior que o número ***Limite*** sem conseguir achar um valor melhor para *Kef* (isso é, que corresponde a um qui-quadrado menor), então a função que faz o ajuste para e então já teremos nosso valor estimado para o *Kef*.
 
-## inputs:
+## inputs
 - ***Dados:*** os dados das curvas experimentais podem ser digitados diretamente na caixa de texto contida no frame **Dados** ou então podem ser inseridos a partir de uma pesquisa no diretório ao acessar *Arquivo > Abrir*. O arquivo deve estar em formato *xlsx*, com uma coluna intitulada "t" para os dados do tempo e uma outra coluna intitulada "m", para os dados da massa aparente. Após os dados serem inseridos na caixa de texto, podem ser editados.
 
 - ***Parâmetros:*** os parâmetros variáveis do experimento se encontram no frame **Parâmetros**, onde o usuário deve especificar o valor de cada parâmetro para que o ajuste possa ser feito.
